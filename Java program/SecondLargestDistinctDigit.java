@@ -15,6 +15,7 @@ class Main {
             }
             n /= 10;
         }
+        if(secondlargest==-1) return -1;
         return secondlargest;
     }
     public static void main(String[] args) {
